@@ -1,0 +1,25 @@
+a {color: white;}
+h1 {color: white;}
+h2 {color: white;}
+h3 {color: white;}
+p {color: white;}
+li {color: white;}
+
+body {background-color: black}
+
+#Header {
+    background-image: url("../img/bg-dark.png");
+}
+
+#nav a:hover {
+    color: white;
+  }
+
+.navbar-custom {
+    background-color: #444444;
+    color: white;
+}
+
+#img-right img {
+    border: 6px solid #444444;
+}
