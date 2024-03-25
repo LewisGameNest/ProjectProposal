@@ -61,22 +61,6 @@ a {
     height: 30px;
     width: 30px;
   }
-  
-  .container {
-    display: inline-block;
-    min-width: 100vw;
-  }
-
-  .left {
-    float: left;
-    min-width: 80vw;
-  }
-
-
-  .right img {
-    height: 180px;
-    margin: auto;
-  }
 
   .column {
     text-align: center;

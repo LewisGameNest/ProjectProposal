@@ -62,14 +62,12 @@ function toggleLightMode() {
         styleMode.setAttribute('href', './style/light.css');
         nav.className = "navbar navbar-expand-sm navbar-custom navbar-light navbar-fixed-top";
         imgLightMode.src = './img/moon.png';
-        document.getElementById("logo").src = './img/gamenest-light.png'
         isDark = false;
    
     } else {                    // switch to dark mode
         styleMode.setAttribute('href', './style/dark.css');
         nav.className = "navbar navbar-expand-sm navbar-custom navbar-dark navbar-fixed-top";
         imgLightMode.src = './img/sun.png';
-        document.getElementById("logo").src = './img/gamenest-dark.png'
         isDark = true;
     }
 }
